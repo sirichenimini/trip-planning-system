@@ -9,9 +9,9 @@ void getDestination(char *destination) {
 
 // Function to get trip dates
 void getDates(char *startDate, char *endDate) {
-    printf("Enter the start date (YYYY-MM-DD): ");
+    printf("Enter the start date (DD-MM-YYYY): ");
     scanf("%s", startDate);
-    printf("Enter the end date (YYYY-MM-DD): ");
+    printf("Enter the end date (DD-MM-YYYY): ");
     scanf("%s", endDate);
 }
 
